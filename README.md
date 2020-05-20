@@ -1,4 +1,4 @@
-# Face-recongnition-based-smart-attendance-system
+# Face-recognition-based-smart-attendance-system
 Real time face recognition based attendance system
 
 Working :
