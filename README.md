@@ -6,3 +6,5 @@ Working :
 2. Detect  faces by using haarcascade classifier 
 3. Recognize faces and update the attendance in the excel sheet
 
+Gui Explained https://medium.com/@sagargajare/face-recognition-based-attendance-system-working-explained-7906ad3863e1
+
