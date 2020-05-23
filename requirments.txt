@@ -1,0 +1,6 @@
+Opencv
+pandas
+face_recognition
+pickle
+numpy
+shutil
