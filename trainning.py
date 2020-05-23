@@ -1,10 +1,9 @@
-import json
+
 import tkinter as tk
 import pickle
 import shutil
 
 from tkinter import messagebox,filedialog as fd
-from tkinter.ttk import *
 import os
 import face_recognition as fr
 

@@ -1,16 +1,21 @@
 import os
 import time
 import cv2
-
-
+import pandas as pd
 from PIL import Image
-import openpyxl
+from datetime import datetime
 
 from functions import classify_face1
+
+
+
+
+
+
 a = []
 
 def xlsheet(D):
-    import pandas as pd
+
 
 
 
@@ -19,8 +24,9 @@ def xlsheet(D):
     df = (df.T)
 
     print(df)
+    x = datetime.today().strftime('%d-%m-%Y')
 
-    df.to_excel('attendance.xlsx')
+    df.to_excel("attendance record\{}.xlsx".format(x))
 
 
 # Load the cascade

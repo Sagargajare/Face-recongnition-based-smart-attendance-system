@@ -12,10 +12,10 @@ window.resizable(0, 0)
 message = tk.Label(
     window, text='''Smart-Face-Recognition
                  -Attendance-System''',
-    bg="blue", fg="white", width=37,
+    bg="blue", fg="white", width=32,
     height=3, font=('times', 20, 'bold'))
 
-message.place(x=10, y=10)
+message.place(x=0, y=10)
 
 
 def tranning():
